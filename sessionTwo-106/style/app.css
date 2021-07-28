@@ -1,0 +1,120 @@
+body{
+    margin:0;
+    padding:0;
+    height:100vh;
+}
+main{
+   height:90vh;
+}
+
+.mainHeader {
+    background: linear-gradient(to bottom right, rgb(255, 187, 0), rgb(255, 255, 255));
+    border-bottom: 3px solid black;
+}
+
+h1{
+    color:rgb(49, 47, 47);
+    margin: 0;
+    margin-left: 5px;
+}
+
+.hide {
+    display:none;
+}
+
+.container-fluid {
+    display: flex;
+    padding:0;
+    
+}
+
+.backGround{
+    background-image: url("/index-beach.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h3{
+    color:lightgoldenrodyellow;
+    font-weight: 600;
+    margin: 5px;
+}
+
+#list {
+    flex: 2;
+}
+
+#capture-form {
+    flex: 1;
+}
+
+.category-flex {
+    display: flex;
+}
+
+.form-label{
+    color: rgb(3, 3, 3);
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+#txtCategory {
+    margin-left: 7px;;
+}
+
+#iImportant {
+    font-size: 32px;
+    cursor: pointer;
+}
+
+#iImportant.far {
+    color: #666;
+}
+
+#iImportant.fas {
+    color: #FF1654;
+}
+
+.border {
+    padding:2px 4px 10px 4px;
+    margin: 5px;
+    border: 1px solid rgb(207, 11, 11);
+}
+
+.saveBtn {
+    margin-top: 5px;
+    border-radius: 7px;
+    border: .5px solid rgb(247, 184, 11);
+    background: transparent;
+    color: lightgoldenrodyellow;
+}
+
+#pendingTasks {
+    background-color: white;
+}
+
+.task{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px 15px;
+    background-color: white;
+}
+
+.task i,
+.task button{
+    flex: 1;
+}
+
+.task .location,
+.task .due-date,
+.task .category,
+.task .color{
+    
+    flex:5;
+}
+
+.task .description{
+    flex: 9;
+}
